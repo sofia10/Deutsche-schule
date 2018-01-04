@@ -1,0 +1,220 @@
+@import "fonts.de.scss";
+
+p{
+	font-family: $montserrat;
+}
+h3,
+h4{
+	font-family: $montserrat-bold;
+}
+h6{
+	font-family: $montserrat;
+}
+.abs{
+	h2{
+		font-family: $montserrat-bold;
+	}
+	a{
+		font-family: $montserrat;
+	}
+}
+.down-header{
+	nav.row{
+		a{
+			font-family: $montserrat-bold;
+			padding-top: 12px;
+		}
+	}
+}
+.up-header{
+	ul.row{
+		li{
+			a{
+				font-family: $montserrat-bold;
+			}
+		}
+		li.header-info{
+			div.row{
+				img{
+				}
+				.call{
+					span{
+						font-family: $montserrat;
+					}
+				}
+			}
+		}
+	}
+}
+.news{
+	.col-md-3{
+		h5{
+			font-family: $montserrat;
+		}
+	}
+	.head{
+		a{
+			font-family: $montserrat;
+		}
+	}
+}
+.row{
+	.col-2{
+		ul{
+			li{
+				font-family: $montserrat-bold;
+			}
+		}
+	}
+	.col-10{
+		a{
+			font-family: $montserrat;
+		}
+	}
+}
+.sub-footer{
+	.col-md-8{
+		span{
+			font-family: $montserrat-bold;
+		}
+	}
+}
+.joinUs{
+	span{
+		font-family: $montserrat-bold;
+	}
+}
+.nav-container{
+	a{
+		font-family: $montserrat-bold;
+	}
+}
+.school-title{
+	.col-md-3{
+		span{
+			font-family: $montserrat;
+		}
+	}
+}
+.menu{
+	ul{
+		li{
+			a{
+				font-family: $montserrat;
+			}
+		}
+		li.menu-title{
+			a{
+				font-family: $montserrat-bold;
+			}
+		}
+	}
+}
+.teacher-item{
+	span{
+		font-family: $montserrat-bold;
+	}
+	a.sponsor{
+		font-family: $montserrat;
+	}
+	.col-md-10{
+		span.squad-name{
+			font-family: $montserrat-bold;
+		}
+		span.date{
+			font-family: $montserrat;
+		}
+	}
+	.col-md-2{
+		a{
+			font-family: $montserrat-bold;
+		}
+	}
+}
+.registration{
+	span{
+		font-family: $montserrat-bold;
+	}
+
+}
+.squad-name{
+	font-family: $montserrat-bold;
+}
+label,
+input[type=submit]{
+	font-family: $montserrat-bold;
+}
+input{
+	font-family: $montserrat;
+}
+.eat-item{
+	span{
+		font-family: $montserrat;
+	}
+	.eat-file{
+		a{
+			font-family: $montserrat-bold;
+		}
+	}
+}
+.pay{
+	ul{
+		li{
+			font-family: $montserrat;
+		}
+		li.pay-title{
+			font-family: $montserrat-bold;
+		}
+	}
+}
+.links{
+	span{
+		font-family: $montserrat-bold;
+	}
+	a{
+		font-family: $montserrat;
+	}
+	a.link-download{
+		font-family: $montserrat-bold;
+	}
+}
+.calendar-cont{
+	span{
+		font-family: $montserrat-bold;
+	}
+	.cal-item{
+		.date{
+			ul{
+				li{
+					font-family: $montserrat-bold;
+				}
+			}
+		}
+		.cal-info{
+			a{
+				font-family: $montserrat-bold;
+			}
+		}
+	}
+}
+a.seemore{
+	font-family: $montserrat;
+}
+.school-rules{
+	.rule-item{
+		span{
+			font-family: $montserrat-bold;
+		}
+		a{
+			font-family: $montserrat-bold;
+		}
+	}
+}
+.text{
+	span{
+		font-family: $montserrat;
+	}
+	a.link-download{
+		font-family: $montserrat-bold;
+	}
+}
