@@ -219,16 +219,23 @@ a.seemore{
 	}
 }
 .tx-cont{
-	font-family: $webfontCaps;
+	font-family: $montserrat-bold;
 }
 .sch-rek{
-	font-family: $webfont;
+	font-family: $montserrat;
 }
 .bank-ang{
-	font-family: $webfontCaps;
+	font-family: $montserrat-bold;
 }
 .contact-info{
 	input, textarea{
-		font-family: $webfont;
+		font-family: $montserrat;
+	}
+}
+.text{
+	ul{
+		li{
+			font-family: $montserrat;
+		}
 	}
 }

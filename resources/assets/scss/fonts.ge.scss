@@ -14,5 +14,31 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'panton-bold';
+    src: url('../fonts/panton-bold.eot');
+    src: url('../fonts/panton-bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/panton-bold.woff2') format('woff2'),
+        url('../fonts/panton-bold.woff') format('woff'),
+        url('../fonts/panton-bold.ttf') format('truetype'),
+        url('../fonts/panton-bold.svg#PantonMtav3-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticageo';
+    src: url('../fonts/helveticageo.eot');
+    src: url('../fonts/helveticageo.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/helveticageo.woff2') format('woff2'),
+        url('../fonts/helveticageo.woff') format('woff'),
+        url('../fonts/helveticageo.ttf') format('truetype'),
+        url('../fonts/helveticageo.svg#HelveticaNeueLTGEO-55Roman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$helvetica: 'helveticageo';
+$panton: 'panton-bold';
 $webfontCaps: 'BPG WEB 001 Caps';
 $webfont: 'BPG WEB 001';

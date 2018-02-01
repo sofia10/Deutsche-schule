@@ -1,19 +1,19 @@
 @import "fonts.ge.scss";
 
 p{
-	font-family: $webfont;
+	font-family: $helvetica;
 }
 h3,
 h4{
-	font-family: $webfontCaps;
+	font-family: $panton;
 }
 h6{
-	font-family: $webfont;
+	font-family: $helvetica;
 }
 .down-header{
 	nav.row{
 		a{
-			font-family: $webfontCaps;
+			font-family: $panton;
 			padding-top: 12px;
 		}
 	}
@@ -22,7 +22,7 @@ h6{
 	ul.row{
 		li{
 			a{
-				font-family: $webfontCaps;
+				font-family: $panton;
 			}
 		}
 		li.header-info{
@@ -31,7 +31,7 @@ h6{
 				}
 				.call{
 					span{
-						font-family: $webfont;
+						font-family: $helvetica;
 					}
 				}
 			}
@@ -41,12 +41,12 @@ h6{
 .news{
 	.col-md-3{
 		h5{
-			font-family: $webfontCaps;
+			font-family: $panton;
 		}
 	}
 	.head{
 		a{
-			font-family: $webfont;
+			font-family: $helvetica;
 		}
 	}
 }
@@ -54,41 +54,41 @@ h6{
 	.col-2{
 		ul{
 			li{
-				font-family: $webfontCaps;
+				font-family: $panton;
 			}
 		}
 	}
 	.col-10{
 		a{
-			font-family: $webfontCaps;
+			font-family: $panton;
 		}
 	}
 }
 .abs{
-	font-family: $webfontCaps;
+	font-family: $panton;
 }
 
 .sub-footer{
 	.col-md-8{
 		span{
-			font-family: $webfontCaps;
+			font-family: $panton;
 		}
 	}
 }
 .joinUs{
 	span{
-		font-family: $webfontCaps;
+		font-family: $panton;
 	}
 }
 .nav-container{
 	a{
-		font-family: $webfontCaps;
+		font-family: $panton;
 	}
 }
 .school-title{
 	.col-md-3{
 		span{
-			font-family: $webfont;
+			font-family: $helvetica;
 		}
 	}
 }
@@ -96,135 +96,142 @@ h6{
 	ul{
 		li{
 			a{
-				font-family: $webfont;
+				font-family: $helvetica;
 			}
 		}
 		li.menu-title{
 			a{
-				font-family: $webfontCaps;
+				font-family: $panton;
 			}
 		}
 	}
 }
 .teacher-item{
 	span{
-		font-family: $webfontCaps;
+		font-family: $panton;
 	}
 	a.sponsor{
-		font-family: $webfont;
+		font-family: $helvetica;
 	}
 	.col-md-10{
 		span.squad-name{
-			font-family: $webfontCaps;
+			font-family: $panton;
 		}
 		span.date{
-			font-family: $webfont;
+			font-family: $helvetica;
 		}
 	}
 	.col-md-2{
 		a{
-			font-family: $webfontCaps;
+			font-family: $panton;
 		}
 	}
 }
 .registration{
 	span{
-		font-family: $webfontCaps;
+		font-family: $panton;
 	}
 
 }
 .squad-name{
-	font-family: $webfontCaps;
+	font-family: $panton;
 }
 label,
 input[type=submit]{
-	font-family: $webfontCaps;
+	font-family: $panton;
 }
 input{
-	font-family: $webfont;
+	font-family: $helvetica;
 }
 .eat-item{
 	span{
-		font-family: $webfont;
+		font-family: $helvetica;
 	}
 	.eat-file{
 		a{
-			font-family: $webfontCaps;
+			font-family: $panton;
 		}
 	}
 }
 .pay{
 	ul{
 		li{
-			font-family: $webfont;
+			font-family: $helvetica;
 		}
 		li.pay-title{
-			font-family: $webfontCaps;
+			font-family: $panton;
 		}
 	}
 }
 .links{
 	span{
-		font-family: $webfontCaps;
+		font-family: $panton;
 	}
 	a{
-		font-family: $webfont;
+		font-family: $helvetica;
 	}
 	a.link-download{
-		font-family: $webfontCaps;
+		font-family: $panton;
 	}
 }
 .calendar-cont{
 	span{
-		font-family: $webfontCaps;
+		font-family: $panton;
 	}
 	.cal-item{
 		.date{
 			ul{
 				li{
-					font-family: $webfontCaps;
+					font-family: $panton;
 				}
 			}
 		}
 		.cal-info{
 			a{
-				font-family: $webfontCaps;
+				font-family: $panton;
 			}
 		}
 	}
 }
 a.seemore{
-	font-family: $webfont;
+	font-family: $helvetica;
 }
 .school-rules{
 	.rule-item{
 		span{
-			font-family: $webfontCaps;
+			font-family: $panton;
 		}
 		a{
-			font-family: $webfontCaps;
+			font-family: $panton;
 		}
 	}
 }
 .text{
 	span{
-		font-family: $webfont;
+		font-family: $helvetica;
 	}
 	a.link-download{
-		font-family: $webfontCaps;
+		font-family: $panton;
 	}
 }
 .tx-cont{
-	font-family: $webfontCaps;
+	font-family: $panton;
 }
 .sch-rek{
-	font-family: $webfont;
+	font-family: $helvetica;
 }
 .bank-ang{
-	font-family: $webfontCaps;
+	font-family: $panton;
 }
 .contact-info{
 	input, textarea{
-		font-family: $webfont;
+		font-family: $helvetica;
+	}
+}
+.text{
+	ul{
+		li{
+			font-family: $helvetica;
+		}
 	}
 }

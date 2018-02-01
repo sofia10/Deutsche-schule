@@ -38,7 +38,7 @@ body{
 header{
 	position: fixed;
     top: 0;
-    height: 150px;
+    height: 120px;
     left: 0;
     z-index: 9;
     right: 0;
@@ -53,7 +53,7 @@ header{
 				.logo{
 				    a{
 				    	img{
-				    		width: 180px;
+				    		width: 150px;
 							@include transition();
 							@media (max-width: 986px){
 								width: 160px;
@@ -67,7 +67,7 @@ header{
 				}
 			}
 			.col-md-9{
-				padding: 30px 0 20px 0;
+				padding: 25px 0 20px 0;
 				@include transition();
 				@media (max-width: 767px){
 					display: none;
@@ -101,6 +101,7 @@ header.stuck{
 		justify-content: flex-end;
 		align-items: center;
 		margin-right: 0;
+		margin-bottom: 8px;
 		li{
 			margin-left: 30px;
 			@media (max-width: 986px){
@@ -218,7 +219,7 @@ li.caret-lang.respo-lang{
 	}
 }
 .slider{
-	margin-top: 150px;
+	margin-top: 120px;
 	.swiper-pagination{
 		display: none;
 	}
@@ -229,6 +230,7 @@ li.caret-lang.respo-lang{
 			.swiper-slide{
 				background-position: center;
 				position: relative;
+				background-size: cover;
 				.bg{
 					background-color: rgba(0,0,0,0.5);
 					height: 100%;
@@ -650,7 +652,7 @@ nav{
 
 /*school pages*/
 .school-cont{
-	margin-top: 150px;
+	margin-top: 120px;
 	.school-title{
 		padding: 30px 0 20px 0;
 		background-color: #f2f2f2;
@@ -749,6 +751,15 @@ nav{
 			.text{
 				p{
 					@include p();
+				}
+				ul{
+					padding-left: 30px;
+					li{
+						list-style-type: disc;
+						font-size: 12px;
+					    line-height: 1.5;
+					    color: #333;
+					}
 				}
 			}
 			.text.reg-text{
@@ -966,7 +977,7 @@ nav.school{
 		li{
 			border: 1px solid $border-color;
 			border-top: none;
-			padding: 20px 0 15px 30px;
+			padding: 13px 0 15px 30px;
 			a{
 				font-size: 12px;
 				color: #272727;
@@ -979,7 +990,7 @@ nav.school{
 			}
 		}
 		li.menu-title{
-			padding: 25px 20px 20px 30px;
+			padding: 20px 20px 17px 30px;
 			background-color: $orange-color;
 			a{
 				color: $white-color;
@@ -1137,7 +1148,7 @@ nav.school{
 			li{
 				border: 1px solid $border-color;
 				border-top: none;
-				padding: 20px 0 15px 30px;
+				padding: 13px 0 15px 30px;
 				a{
 					font-size: 12px;
 					color: #272727;
@@ -1153,7 +1164,7 @@ nav.school{
 				}
 			}
 			li.menu-title{
-				padding: 25px 20px 20px 30px;
+				padding: 20px 20px 17px 30px;
 				background-color: $burgundy-color;
 				a{
 					color: $white-color;
@@ -1259,7 +1270,7 @@ nav.school{
 			li{
 				border: 1px solid $border-color;
 				border-top: none;
-				padding: 20px 0 15px 30px;
+				padding: 13px 0 15px 30px;
 				a{
 					font-size: 12px;
 					color: #272727;
@@ -1275,7 +1286,7 @@ nav.school{
 				}
 			}
 			li.menu-title{
-				padding: 25px 20px 20px 30px;
+				padding: 20px 20px 17px 30px;
 				background-color: $blue-color;
 				a{
 					color: $white-color;
@@ -1456,7 +1467,7 @@ a.seemore{
 			li{
 				border: 1px solid $border-color;
 				border-top: none;
-				padding: 20px 0 15px 30px;
+				padding: 13px 0 15px 30px;
 				a{
 					font-size: 12px;
 					color: #272727;
@@ -1472,7 +1483,7 @@ a.seemore{
 				}
 			}
 			li.menu-title{
-				padding: 25px 20px 20px 30px;
+				padding: 20px 20px 17px 30px;
 				background-color: $red-color;
 				a{
 					color: $white-color;
@@ -1566,7 +1577,7 @@ a.seemore{
 			li{
 				border: 1px solid $border-color;
 				border-top: none;
-				padding: 20px 0 15px 30px;
+				padding: 13px 0 15px 30px;
 				a{
 					font-size: 12px;
 					color: #272727;
@@ -1582,7 +1593,7 @@ a.seemore{
 				}
 			}
 			li.menu-title{
-				padding: 25px 20px 20px 30px;
+				padding: 20px 20px 17px 30px;
 				background-color: $green-color;
 				a{
 					color: $white-color;
