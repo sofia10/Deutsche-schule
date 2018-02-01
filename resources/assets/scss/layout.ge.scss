@@ -1730,8 +1730,12 @@ a.seemore{
 	ol{
 		display: flex;
 		li{
-			width: 20px;
-			height: 20px;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 			text-align: center;
 			margin-right: 5px;
 			a{
@@ -1745,6 +1749,18 @@ a.seemore{
 			a{
 				color: $white-color;
 			}
+		}
+		.chevron{
+			background-color: #ededed;
+			i{
+				color: #bfbfbf;
+			}
+		}
+		.mrg{
+			margin-right: 20px;
+		}
+		.mrg-left{
+			margin-left: 20px;
 		}
 	}
 }
